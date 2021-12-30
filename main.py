@@ -2,8 +2,7 @@ import discord
 import os
 
 
-#TOKEN = os.getenv('TEST_TOKEN')
-TOKEN = 'ODEzMjk2ODU1ODE1MjkwOTMw.YDNPuA.ZsS_uLrwrQrP4urHhktX3_VPyrY'
+TOKEN = os.getenv('TEST_TOKEN')
 
 intents = discord.Intents.all()
 client = discord.Client(intents=intents)
